@@ -1,19 +1,18 @@
 {
-  "posts": [
+  "subscription": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "netflix": [
+        {
+          "have": true,
+          "price": 12.99
+        }
+      ],
+      "hulu": [
+        {
+          "have": true,
+          "price": 5.99
+        }
+      ]
     }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
