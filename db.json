@@ -1,18 +1,18 @@
 {
   "subscription": [
     {
-      "netflix": [
-        {
-          "have": true,
-          "price": 12.99
-        }
-      ],
-      "hulu": [
-        {
-          "have": true,
-          "price": 5.99
-        }
-      ]
+      "id": 1,
+      "netflix": {
+        "have": true,
+        "price": 12.99
+      }
+    },
+    {
+      "id": 2,
+      "hulu": {
+        "have": true,
+        "price": 5.99
+      }
     }
   ]
 }
